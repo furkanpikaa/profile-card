@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+    <link rel="stylesheet" href="./mesaj.css">
+    <title>Message</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 >Message</h1>
+        <form action="https://formspree.io/f/xpznkzlw" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <select name="Continent">
+                <option>Africa</option>
+                <option>Antarctica</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>Nort America</option>
+                <option>South America</option>
+            </select>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <div class="container-back">
+        <a href="index.html">
+            <button class="Back">
+                Go Back
+            </button>
+        </a>
+    </div>
+
+</body>
+</html>
